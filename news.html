@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/banner.css" rel="stylesheet">
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/navigation.js"></script>
+		<script src="js/newscenter.js"></script>
+		<script src="data/companynews.js"></script>
+		<script>
+			$(function(){
+				$('#hangye').click(function(){
+					$('.news ul').html(' ');
+					$.get("json/news.json",function(data){															//传出成功时运行函数
+						var item=data;
+						var html="";					
+								for(var i=0;i<item.companynews1.length;i++){
+									html+='<li><a href="">'+item.companynews1[i].title+'<span>'+item.companynews1[i].date+'</span></a></li>';
+								}												
+						$('.news ul').append(html);
+					},"json")
+				});
+				$('#companynews').click(function(){
+					$('.news ul').html(' ');
+					$.get("json/news.json",function(data){															//传出成功时运行函数
+						var item=data;
+						var html="";					
+								for(var i=0;i<item.companynews.length;i++){
+									html+='<li><a href="">'+item.companynews[i].title+'<span>'+item.companynews[i].date+'</span></a></li>';
+								}												
+						$('.news ul').append(html);
+					},"json")
+				});
+				
+			})
+		</script>
+	</head>
+	<body>
+
+			<div class="header_nav inner">
+				<div class="header_logo"><img src="images/logo.png" alt="" /></div>
+				<div class="navigation">
+					<ul class="clearfix">
+						<li><a href="index.html">首页</a></li>
+						<li>
+							<a href="jianjie.html">公司简介</a>
+							<ul class="sec_nav">
+								<li><a href="jianjie.html">企业文化</a></li>
+								<li><a href="jianjie.html">宣传视频</a></li>
+								<li><a href="jianjie.html">合作伙伴</a></li>
+								<li><a href="jianjie.html">荣誉资质</a></li>
+							</ul>
+						</li>
+						<li><a href="newscenter.html">新闻中心</a></li>
+						<li>
+							<a href="Product Center.html">产品中心</a>
+							<ul class="sec_nav">
+								<li><a href="Product Center.html">稻花香</a></li>
+								<li><a href="Product Center.html">长粒香</a></li>
+								<li><a href="Product Center.html">珍珠米</a></li>
+								<li><a href="Product Center.html">五谷杂粮</a></li>
+							</ul>
+						</li>
+						<li><a href="lianxi.html">联系我们</a></li>
+					</ul>
+				</div>
+			</div>
+
+		
+		<div class="banner">
+			<img class="tu" src="images/banner.jpg"/>
+			<img class="wen" src="images/banner_font.png" />
+		</div>
+		<div class="main">
+			<div class="title">
+				<img src="images/biaotikuang.png" />
+			</div>
+			<ul class="txt">
+				<li class="xian" id="companynews"><h3><a href="##">公司新闻</a></h3></li>
+				<li id="hangye"><h3><a href="##">行业资讯</a></h3></li>
+				<li><h3><a href="##">产品百科</a></h3></li>
+			</ul>
+			<div class="t_news">
+				<h3>新闻资讯</h3>
+				<p>NEEWS CENTER</p>
+			</div>
+			<div class="news">
+				<ul>
+					<!--<li><a href="">9月18日我公司前往五常种植基地拓展实践<span>2016-09-20</span></a></li>
+					<li><a href="">和粮农业为期两天花果山拓展训练<span>2016-09-20</span></a></li>
+					<li><a href="">首届哈尔滨英博杯食品安全在行动公益活动 <span>2016-09-20</span></a></li>
+					<li><a href="">东北五常大米的市场现状<span>2016-09-20</span></a></li>
+					<li><a href="">五常大米厂家改进简述五常大米厂家改进简述<span>2016-09-20</span></a></li>
+					<li><a href="">【荣誉】和粮现代农业被香坊区人民政府授予“农产品营销先进集体”<span>2016-09-20</span></a></li>
+					<li><a href="">和粮农业被香坊政府授予“农产品营销先进集体 <span>2016-09-20</span></a></li>
+					<li><a href="">挑选好大米的几项重要指标 <span>2016-09-20</span></a></li>
+					<li><a href="">和粮农业拒绝非转基因大米  <span>2016-09-20</span></a></li>
+					<li><a href="">和粮好客有机农产品招商加盟店加盟流程<span>2016-09-20</span></a></li>
+					<li><a href="">五常稻花香大米加盟就找和粮农业<span>2016-09-20</span></a></li>
+					<li><a href="">五常稻花香颗粒饱满粒粒光滑 <span>2016-09-20</span></a></li>-->
+				</ul>
+				<div class="butn">
+					<span><</span>
+					<span>></span>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		<div class="all_footer">
+			<div class="all_footer_content inner">
+				<div class="af_left">
+					<div class="af_left_top clearfix">
+						<dl>
+							<dt><a href="index.html">首页</a></dt>
+						</dl>
+						<dl>
+							<dt><a href="index.html">公司简介</a></dt>
+							<dd><a href="#">企业文化</a></dd>
+							<dd><a href="#">宣传视频</a></dd>
+							<dd><a href="#">荣誉资质</a></dd>
+							<dd><a href="#">合作伙伴</a></dd>
+						</dl>
+						<dl>
+							<dt><a href="index.html">新闻中心</a></dt>
+							<dd><a href="#">行业资讯</a></dd>
+							<dd><a href="#">和粮新闻</a></dd>
+							<dd><a href="#">产品百科</a></dd>
+						</dl>
+						<dl>
+							<dt><a href="index.html">产品中心</a></dt>
+							<dd><a href="#">稻花香</a></dd>
+							<dd><a href="#">长粒香</a></dd>
+							<dd><a href="#">珍珠米</a></dd>
+							<dd><a href="#">五谷杂粮</a></dd>
+							<dd><a href="#">商业信息</a></dd>
+						</dl>
+						<dl>
+							<dt><a href="index.html">联系我们</a></dt>
+							<dd><a href="#">招商加盟</a></dd>
+							<dd><a href="#">在线留言</a></dd>
+							<dd><a href="#">电商平台</a></dd>
+							<dd><a href="#">和粮地址</a></dd>
+							<dd><a href="#">资讯热线</a></dd>
+						</dl>
+					</div>
+					<div class="af_left_bot">
+						<p> 黑龙江省和粮现代农业发展有限公司 - 五常稻花香,五常大米价格,五常大米厂家,东北五常大米</p>
+					</div>					
+				</div>
+				<div class="af_right">
+					<div class="af_tel">
+						<p>热线电话<span class="mobile_phone">13019712810</span></p>						
+					</div>
+					<div class="af_ercode">
+						<div class="af_ercode_con">
+							<div class="af_code_pic"><img src="images/weishangcheng.png" alt="" /></div>
+							<p>微商城</p>
+						</div>
+						<div class="af_ercode_con">
+							<div class="af_code_pic"><img src="images/weishangcheng.png" alt="" /></div>
+							<p>微商城</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

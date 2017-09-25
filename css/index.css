@@ -1,0 +1,66 @@
+/*李舒雨首页样式*/
+body{background-color: #f3f3f3;}
+.all_header{height: 1011px;background: url(../images/index_banner_01.png) no-repeat;}
+.company_profile{padding-top: 100px;height: 324px;}
+.company_profile .com_logo{position: relative;float: left;}
+.company_profile .com_logo .cloud{position: absolute;left: -52px;bottom: -36px;}
+.company_profile .cp_text{float: left;padding-left: 193px;}
+.company_profile .cp_text .line_text{float: left;width: 17px;line-height:17px;font-size: 17px;color: #595959;padding-left: 25px;text-align: center;}
+.company_profile .about_heliang{float: left;padding-left: 45px;}
+.small_title{height: 268px;}
+.title_logo{width: 268px;height: 237px;margin: 0 auto;}
+.title_logo img{float: left;}
+.show_info{padding-top: 57px;}
+.show_info .show_info_content{width: 380px;float: left;}
+.show_info .show_info_content .show_info_txt{padding:83px 0 0 30px;}
+.show_info .show_info_content .show_info_txt .line_text{float: left;width: 14px;line-height:14px;font-size: 14px;color: #595959;padding-left: 25px;text-align: center;}
+.show_info .show_info_content .show_info_txt .show_info_title{float: left; position: relative;height: 155px;width: 37px;padding-top: 32px;}
+.show_info .show_info_content .show_info_txt .show_info_title .line_text{font-size: 17px;width: 17px;line-height:17px;} 
+.show_info .show_info_content .show_info_txt .show_info_title i{position: absolute;top: -50px;left: 17px;}
+.show_info .show_info_content .show_info_txt .show_info_title span{width: 1px;height: 18px;background: #bdbdbd;display: block;position: absolute;left: 33px;top: 5px;}
+.show_info_content_sec{padding-left: 20px;}
+.product_center{padding-bottom: 237px;position: relative;}
+.product_content{width: 355px;height:570px;border:1px solid #b4b4b4;border-top: 11px solid #b4b4b4;float: left;position: relative;}
+.product_content .pc_inner{width: 213px;height: 313px;border: 1px solid #b4b4b4;margin: 68px 0 0 66px;}
+.product_content .pc_inner .pro_name{width: 34px;background: #f3f3f3;font-size: 35px;color: #595959;text-align: center;padding: 0 20px;margin: 0 auto;margin-top: -50px;}
+.product_content .pc_inner p{font-size: 11px;color: #c3c3c3;text-align: center;}
+.product_content .pc_inner a{color: #c3c3c3;}
+.product_content .pc_inner .seemore{width: 116px;height: 26px;line-height: 26px;border: 1px solid #b4b4b4;text-align: center;font-size: 12px;color: #c3c3c3;margin: 26px 0 0 48px;cursor: pointer;}
+.product_content .rice_pic{position: absolute;right: 15px;bottom: -100px;}
+.product_content:hover{transform: translateY(-20px);transition-duration: 1s;}
+.product_content:hover .rice_pic{transform: translateY(40px);transition-duration: 1s;}
+.product_content_sec{margin-left: 55px;}
+.product_center .selector{width: 66px;height: 8px;position: absolute;left: 565px;bottom: 100px;}
+.product_center .selector span{display: block;cursor: pointer;width: 26px;height: 8px;background: #ddd;margin-left: 7px;float: left;}
+.product_center .selector .active{background: #adadad;}
+/*首页过渡*/
+.guodu{height:564px;background: url(../images/guozhigenji_02.jpg) no-repeat;}
+/*首页新闻中心*/
+.news_center{padding-top: 99px;}
+.news_center .news_title{float: left;position: relative;}
+.news_center .news_title span{position: absolute;left: -57px;bottom: -33px;}
+.news_center_top_content{padding-left: 120px;float: left;}
+.news_center_top_content .line_text{float: left;width: 16px;line-height:16px;font-size: 16px;color: #595959;padding-left: 25px;text-align: center;}
+.news_center_top_title{float: left;width: 19px;height:311px;line-height:19px;font-size: 19px;color: #595959;text-align: center;border: 1px solid #7d7d7d;padding: 33px 16px 0;margin-left: 60px;}
+.news_center_bot .luhao{width: 490px;height: 69px;border: 1px solid #a5a5a5;padding-top: 15px;float: left;margin-left: 27px;}
+.news_center_bot .luhao p{text-align: center;height: 30px;line-height: 30px; color: #595959;}
+/*首页品牌区*/
+.small_title{padding: 80px 0;}
+.small_title .logopic{float: left;padding-top: 49px;}
+.small_title .logopic a{float: left;}
+.small_title .dianshang{float: left;padding-left: 42px;}
+.small_title .tianmao{padding-left: 4px;}
+.small_title .jindong{padding-left: 110px;}
+.small_title .suning{padding-left: 66px;}
+.small_title .yihaodian{padding-left: 105px;}
+/*首页联系我们*/
+.index_contact .contact_title{position: relative;float: left;}
+.index_contact .contact_title i{position: absolute;right: -41px;bottom: -2px;}
+.index_contact .contact_info{float: left;padding: 58px 0 0 139px;}
+.index_contact .contact_info .contact_phone p{font-size: 24px;color: #686868;height: 37px;line-height: 37px;}
+.index_contact .contact_info .contact_loca{padding-top: 60px;}
+.index_contact .contact_info .contact_loca p{font-size: 15px;color: #a9a9a9;height: 34px;line-height: 34px;}
+.index_contact .contact_from{float: left;width: 520px;padding-left: 70px;}
+.index_contact .contact_from input{width: 500px;height: 26px;border: 1px solid #c9c9c9;margin-bottom: 10px;font-size: 14px;padding-left: 15px;color: #787878;}
+.index_contact .contact_from textarea{width: 500px;height: 148px;border: 1px solid #c9c9c9;margin-bottom: 10px;font-size: 14px;padding-left: 15px;color: #787878;line-height: 34px;}
+.index_contact .contact_from button{width: 516px;height: 31px;line-height: 31px;text-align: center;background: #929292;border: 1px solid #c9c9c9;color: #e9e9e9;font-size: 14px;}

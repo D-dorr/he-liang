@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link href="css/style.css" rel="stylesheet" />
+		<link href="css/contactUs.css" rel="stylesheet" />
+		<script src="http://api.map.baidu.com/api?v=2.0&ak=A1LU7iHS0avqQwPLAxbhKn0UYSQCuRVH"></script>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/jquery.baiduMap.min.js"></script>
+		<script type="text/javascript" src="js/hjgLianxi.js"></script>
+		<script src="js/navigation.js"></script>
+		<style>
+
+			html,
+			body {
+				height: 100%;
+			}
+			
+			.container {
+				width: 100%;
+				height: 80%;
+			}
+
+		</style>
+	</head>
+
+	<body style="background: #F2F2F2;">
+		<div class="header">
+			<img class="bannerImg" src="images/banner_lianxiwomen.jpg" />
+			<img class="bannerText" src="images/banner_font.png" style="position: absolute;left:400px;top: 210px;">
+			<div class="all_header">
+				<div class="header_nav inner">
+					<div class="header_logo"><img src="images/logo.png" alt="" /></div>
+					<div class="navigation">
+						<ul class="clearfix">
+						<li><a href="index.html">首页</a></li>
+						<li>
+							<a href="jianjie.html">公司简介</a>
+							<ul class="sec_nav">
+								<li><a href="jianjie.html">企业文化</a></li>
+								<li><a href="jianjie.html">宣传视频</a></li>
+								<li><a href="jianjie.html">合作伙伴</a></li>
+								<li><a href="jianjie.html">荣誉资质</a></li>
+							</ul>
+						</li>
+						<li><a href="newscenter.html">新闻中心</a></li>
+						<li>
+							<a href="Product Center.html">产品中心</a>
+							<ul class="sec_nav">
+								<li><a href="Product Center.html">稻花香</a></li>
+								<li><a href="Product Center.html">长粒香</a></li>
+								<li><a href="Product Center.html">珍珠米</a></li>
+								<li><a href="Product Center.html">五谷杂粮</a></li>
+							</ul>
+						</li>
+						<li><a href="lianxi.html">联系我们</a></li>
+					</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contact clearfix">
+			<div class="ziliao">
+				<img class="zuoshang" src="images/yun1.png">
+				<ul>
+					<li><a href="##">招商加盟<img src="images/hongxian_03.png"></a></li>
+					<li><a href="##">电商平台<img src="images/hongxian_03.png"></a></li>
+					<li><a href="##">咨询热线<img src="images/hongxian_03.png"></a></li>
+					<li><a href="##">在线留言<img src="images/hongxian_03.png"></a></li>
+					<li><a href="##">公司地址<img src="images/hongxian_03.png"></a></li>
+					<li><a href="##"><img class="he" src="images/hehjg.png"></a></li>
+				</ul>
+				<img class="zuoxia" src="images/yun.png" />
+			</div>
+			<div class="join_inner">
+				<div class="lm">
+					<h2>招商加盟</h2>
+					<span>JOIN INVESTMENT</span>
+				</div>
+				<div class="pinpai">
+					<h3>品牌优势</h3>
+					<p>OUR ADVANTAGE</p>
+				</div>
+				<ul class="clearfix">
+					<li>
+						<div class="zi">
+							代
+						</div>
+						<div class="ziTixt">在合作期限内公司授权特许代理商在指定区域内的独家代理权。</div>
+					</li>
+					<li>
+						<div class="zi">
+							导
+						</div>
+						<div class="ziTixt">提供市场诊断，协助制定最新市场信息和经营分析。</div>
+					</li>
+					<li>
+						<div class="zi">
+							策
+						</div>
+						<div class="ziTixt">广告宣传及阶段性促销方案</div>
+					</li>
+					<li>
+						<div class="zi">
+							形
+						</div>
+						<div class="ziTixt">同一品牌、统一形象、统一管理、统一宣传、统一服务、统一配送、统一价位。</div>
+					</li>
+					<li>
+						<div class="zi">
+							训
+						</div>
+						<div class="ziTixt">资深终端实战专家对店长、导购等岗位的专业营销指导。</div>
+					</li>
+					<li>
+						<div class="zi">
+							供
+						</div>
+						<div class="ziTixt">及时提供优质、适合的“和粮好客”品牌系列产品。</div>
+					</li>
+					<li>
+						<div class="zi lastText">
+							优
+						</div>
+						<div class="ziTixt ">坚定的品牌发展目标；规范的企业运作结构；高度凝视力的团队组合；敏锐的市场触觉；完善的品牌管理模式；系统化的售后保障；现代化企业管理；顺畅高效的物流支援；国际质量监控体系。</div>
+					</li>
+				</ul>
+				<div class="pinpai cengluo">
+					<h3>服务承诺</h3>
+					<p>SERVICE PROMISE</p>
+				</div>
+				<div class="jihua">
+					<p>统一行动计划：和粮依靠自身强大的管理运作体统，为所有加盟者提供一流的行动计划。</p>
+					<p>统一形象策划：统一广告宣传，统一店面形象，统一管理模式，极大的降低了创业初期的营业探索时期的冒险</p>
+					<p>品种多样化计划：目的只有一个，让顾客满意！</p>
+				</div>
+				<div class="pinpai zhaoshang">
+					<h3>服务承诺</h3>
+					<p>SERVICE PROMISE<span>全国统一招商热线：134-123-4567</span></p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="bgPic">
+		</div>
+		
+		<div class="pingtai clearfix">
+			<div class="pingtai_inner">
+				<div class="lm dianshang">
+					<h2>电商平台</h2>
+					<span>JOIN INVESTMENT</span>
+				</div>
+				<ul class="icon clearfix">
+					
+					<li>
+						<img src="images/hjg4_05.png" />
+						<a href="#"><span>点击进入京东</a></span>
+					</li>
+					<li>
+						<img src="images/hjg4_07.png" />
+						<a href="#"><span>点击进入天猫</a></span>
+					</li>
+					<li>
+						<img src="images/hjg4_09.png" />
+						<a href="#"><span>点击进入苏宁</a></span>
+					</li>
+					<li>
+						<img src="images/hjg4_11.png" />
+						<a href="#"><span>点击进入1号店</a></span>
+					</li>
+					<li>
+						<img src="images/hjg4_13.png" />
+						<a href="#"><span>点击进入阿里巴巴</a></span>
+					</li>
+					
+					
+				</ul>
+				<div class="liuyan clearfix">
+					<div class="left">
+						<div class="lm rexian">
+							<h2>咨询热线</h2>
+							<span>JOIN INVESTMENT</span>
+						</div>
+						<ul>
+							<li><i></i><span>咨询热线1:400-678-4560</span></li>
+							<li><i></i><span>咨询热线2:13019712810</span></li>
+							<li><i></i><span>联系人：徐经理</span></li>
+							
+						</ul>
+						<div class="lm rexian">
+							<h2>公司地址</h2>
+							<span>JOIN INVESTMENT</span>
+						</div>
+						<p>地址：哈尔滨市香坊工兵路0公里和粮工业园区</p>
+					</div>
+					<div class="right">
+						<div class="lm rexian">
+							<h2>在线留言</h2>
+							<span>JOIN INVESTMENT</span>
+						</div>
+						<form class="message" style="position: relative;">
+							<input type="text"  placeholder="姓名" /><span class="names">请输入真实姓名</span>
+							<input type="text"  placeholder="邮箱" /><span class="emails" style="position: absolute;left:340px;top:40px;opacity: 0;">邮箱不正确</span>
+							<input type="text"  placeholder="电话" /><span class="phones" style="position: absolute;left:340px;top:80px;opacity: 0;">电话格式不真情</span>
+							<textarea  placeholder="建议"></textarea>
+							<button type="button">发送</button>
+						</form>
+					</div>
+					
+				</div>
+				
+				
+			<div style="width:972px;height: 375px;margin-top:50px;float: right;">
+				<div id="container2" class="container"></div>
+			</div>	
+				</div>
+			
+		</div>
+		
+		<div class="all_footer">
+			<div class="all_footer_content inner">
+				<div class="af_left">
+					<div class="af_left_top clearfix">
+						<dl>
+							<dt><a href="index.html">首页</a></dt>
+						</dl>
+						<dl>
+							<dt><a href="index.html">公司简介</a></dt>
+							<dd><a href="#">企业文化</a></dd>
+							<dd><a href="#">宣传视频</a></dd>
+							<dd><a href="#">荣誉资质</a></dd>
+							<dd><a href="#">合作伙伴</a></dd>
+						</dl>
+						<dl>
+							<dt><a href="index.html">新闻中心</a></dt>
+							<dd><a href="#">行业资讯</a></dd>
+							<dd><a href="#">和粮新闻</a></dd>
+							<dd><a href="#">产品百科</a></dd>
+						</dl>
+						<dl>
+							<dt><a href="index.html">产品中心</a></dt>
+							<dd><a href="#">稻花香</a></dd>
+							<dd><a href="#">长粒香</a></dd>
+							<dd><a href="#">珍珠米</a></dd>
+							<dd><a href="#">五谷杂粮</a></dd>
+							<dd><a href="#">商业信息</a></dd>
+						</dl>
+						<dl>
+							<dt><a href="index.html">联系我们</a></dt>
+							<dd><a href="#">招商加盟</a></dd>
+							<dd><a href="#">在线留言</a></dd>
+							<dd><a href="#">电商平台</a></dd>
+							<dd><a href="#">和粮地址</a></dd>
+							<dd><a href="#">资讯热线</a></dd>
+						</dl>
+					</div>
+					<div class="af_left_bot">
+						<p> 黑龙江省和粮现代农业发展有限公司 - 五常稻花香,五常大米价格,五常大米厂家,东北五常大米</p>
+					</div>					
+				</div>
+				<div class="af_right">
+					<div class="af_tel">
+						<p>热线电话<span class="mobile_phone">13019712810</span></p>						
+					</div>
+					<div class="af_ercode">
+						<div class="af_ercode_con">
+							<div class="af_code_pic"><img src="images/weishangcheng.png" alt="" /></div>
+							<p>微商城</p>
+						</div>
+						<div class="af_ercode_con">
+							<div class="af_code_pic"><img src="images/weishangcheng.png" alt="" /></div>
+							<p>微商城</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+<!--			<p class="info">实例参数</p>-->
+			<!--<pre>
+			   new BaiduMap({
+					id: "container2",
+					title: {
+						text: "北京故宫博物院",
+						className: "title"// 选填--样式类名
+					},
+					content: {
+						className: "content",// 选填--样式类名
+						text: ["地址：北京市东城区东华门大街", "电话：(010)65131892"]
+					},
+					point: {
+						lng: "116.412222",
+						lat: "39.912345"
+					},
+					level: 15,//  选填--地图级别--(默认15)
+					type: true,// 选填--是否显示地图类型--(默认false)
+					width: 320,// 选填--信息窗口width--(默认自动调整)
+					height: 70,// 选填--信息窗口height--(默认自动调整)
+					icon: {    // 选填--自定义icon图标
+						url: "img/icon.png",
+						width: 36,
+						height: 36
+					}
+			 });
+			</pre>-->
+<!--		</div>-->
+
+		<script type="text/javascript">
+//			new BaiduMap({
+//				id: "container1",
+//				title: {
+//					text: "北京故宫博物院",
+//					className: "title"
+//				},
+//				content: {
+//					className: "content",
+//					text: ["地址：北京市东城区东华门大街", "电话：(010)65131892"]
+//				},
+//				point: {
+//					lng: "116.412222",
+//					lat: "39.912345"
+//				}
+//			});
+
+			new BaiduMap({
+				id: "container2",
+				title: {
+					text: "四川成都百度地图",
+					className: "title"
+				},
+				content: {
+					className: "content",
+					text: ["地址：宽窄巷子人民公园附近", "QQ：378030464"]
+				},
+				point: {
+					lng: "104.06",
+					lat: "30.67"
+//					lng:"104.06";
+//					lat:"30.67"
+				},
+				level: 15,
+				type: true,
+				width: 160,
+				height: 70,
+				icon: {
+					url: "images/icon.png",
+					width: 36,
+					height: 36
+				}
+			});
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,104 @@
+/*宋灏春 简介样式*/
+ul,ol{
+	list-style:none;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,input,textarea{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+img,input{
+	border:none;
+}
+body{
+	font-family:arial,"宋体","Microsoft YaHei";
+	}
+i{font-style:normal;font-family: consolas;}
+
+.all_header{height: 1011px;background: url(../images/jianjiebanner_02.png) no-repeat;}
+.smain{width: 1920px;padding-bottom: 100px;}
+.smaintop{width: 1246px;margin-left: 317px;}
+.smaintop_left{width: 266px;float: left;}
+.smaintop_left_nav{width:179px;height:447px;margin: 99px 0 0 42px;background: url(../images/矩形-11.png) no-repeat;position: relative;}
+.smaintop_left_nav ul{padding-top: 27px;}
+.smaintop_left_nav ul li{height: 64px;line-height: 64px;text-align: center;font-size: 24px;}
+.smaintop_left_nav ul li a{color: #333;}
+.smaintop_left_nav .ac{background: url(../images/形状-5.png) no-repeat center 60px;}
+.smaintop_left_nav .ac a{color: #b90a0a;}
+.smaintop_left .he{position: absolute;left: 72px;top: 359px;}
+.smaintop_left .mafl{position: absolute;left: -42px;bottom:2px;}
+.smaintop_left .smfl{position: absolute;left: 145px;top:-5px;}
+.smaintop_right{width: 980px;float: right;position: relative;}
+.smaintop_right .qywh{position: relative;left:0 ;top:100px ;}
+.smaintop_right .gsgk{position: relative;left:-172px ;top:213px ;}
+.smaintop_right .pic3{width: 980px;height: 300px;margin-top: 294px;}
+.smaintop_right .pic3_1 {width: 300px;height: 241px;overflow: hidden;float: left;}
+.smaintop_right .pic3_2 {width: 300px;height: 241px;overflow: hidden;float: left;margin: 0 39px;t}
+.smaintop_right .pic3_3 {width: 300px;height: 241px;overflow: hidden;float: left;}
+.smaintop_right p{font-size: 14px;color: #929292;line-height: 31px;}
+.smaintop_right .more{width: 116px;height: 26px;border: 1px solid #b90a0a;text-align: center;line-height: 26px;margin: 37px 0 0 0;}
+.smaintop_right .more a{color: #b90a0a;display: inline-block;width: 116px;height: 26px;}
+
+
+.smaintop_right .tk1{width: 979px;height: 449px;border-bottom:1px solid #c9c9c9;margin-top: 19px;display: none;}
+.smaintop_right .tk1 .tk1_1{width: 973px;height: 393px;border: 3px solid #c9c9c9;position:relative;}
+.smaintop_right .tk1 .tk1_1 .delate{width: 26px;height: 26px;border-radius: 50%;
+border: 2px solid #c9c9c9;text-align: center;line-height: 26px;position: absolute;top: 24px;right: 24px;}
+.smaintop_right .tk1 .tk1_1 .delate:hover{background: red;}
+.smaintop_right .tk1 .tk1_1 .delate:hover a{color: #fff;}
+.smaintop_right .tk1 .tk1_1 .delate a{color: #c9c9c9 ;font-size: 20px;display: inline-block;width: 26px;height: 26px;}
+.smaintop_right .tk1_1 p{font-size: 14px;color: #929292;line-height: 31px;margin: 30px 5px 0 40px;}
+
+
+
+.smaintop_right .video{background: url(../images/矩形-201.png) no-repeat;height: 676px;position: relative;margin-top: 80px;left: -10px;}
+.smaintop_right .bof{position: absolute;left:442px ;top:227px ;}
+.smaintop_right .gong{position: absolute;left:373px ;bottom: 128px;}
+.smaintop_right .zhong{position: absolute;left:436px ;bottom: 128px;}
+.smaintop_right .lv{position: absolute;left:499px ;bottom: 128px;}
+.smaintop_right .gon{position: absolute;left:562px ;bottom: 128px;}
+.smaintop_right .p_mt{margin-top: 43px;}
+.smaintop_right .jyll{margin-top: 27px;margin-bottom: 170px;}
+
+.smainmid{width: 1920px;height: 564px;position: relative;margin-bottom: 202px;}
+.smainmid .sh{position: absolute;left:507px;top:190px ;}
+
+.smainbot{width: 1246px;margin-left: 317px;}
+.smainbot_right{width: 980px;float: right;}
+.smainbot_right .hzhb{margin-bottom: 49px;}
+.smainbot_right .changshang{height: 181px;position: relative;margin-bottom: 15px;}
+.smainbot_right .more{width: 116px;height: 26px;border: 1px solid #b90a0a;text-align: center;line-height: 26px;position: absolute;left:430px ;top:77px ;}
+.smainbot_right .more a{color: #b90a0a;}
+.smainbot_right .tk2{width: 979px;height: 465px;border:1px solid #b90a0a;position:relative;text-align: center;display: none;}
+.smainbot_right .tk2 .delate{width: 26px;height: 26px;border-radius: 50%;
+border: 2px solid #c9c9c9;text-align: center;line-height: 26px;position: absolute;top: 24px;right: 24px;}
+.smainbot_right .tk2 .delate:hover{background: red;}
+.smainbot_right .tk2 .delate:hover a{color: #fff;}
+.smainbot_right .tk2 .delate a{color: #c9c9c9 ;font-size: 20px;display: inline-block;width: 26px;height: 26px;}
+.smainbot_right .tk2 img{margin: 15px 25px;}
+
+.smainbot_right .margi_r{margin-right: 14px;}
+.smainbot_right .ryzz{margin-top: 97px;}
+.smainbot_right .ryzzrq{margin-top: 49px;}
+.smainbot_right .honorcon{height: 334px;text-align: center;}
+.smainbot_right .renzheng{float: left;}
+
+.smainbot_right .margr{margin-right: 14px;}
+.smainbot_right .margpt1{padding-top: 13px;}
+.smainbot_right .margpt2{padding-top: 11px;}
+.smainbot_right p{height: 117px;line-height: 117px;}
+.smainbot_right .margpt3{padding-top: 10px;}
+.smainbot_right .margpt4{padding-top: 20px;}
+.smainbot_right .margpt5{padding-top: 156px;padding-left: 60px;}
+.smainbot_right .more2{width: 116px;height: 26px;border: 1px solid #b90a0a;text-align: center;line-height: 7px;margin-top: 5px;margin-bottom: 20px;}
+.smainbot_right .more2 a{color: #b90a0a;}
+.smainbot_right .tk3{width: 1000px;height: 1232px;border:1px solid #c9c9c9;position:relative;padding-top: 70px;padding-left: 18px;display: none;}
+.smainbot_right .tk3 .delate{width: 26px;height: 26px;border-radius: 50%;
+border: 2px solid #c9c9c9;text-align: center;line-height: 26px;position: absolute;top: 24px;right: 24px;}
+.smainbot_right .tk3 .delate{width: 26px;height: 26px;border-radius: 50%;
+border: 2px solid #c9c9c9;text-align: center;line-height: 26px;position: absolute;top: 24px;right: 24px;}
+.smainbot_right .tk3 .delate:hover{background: red;}
+.smainbot_right .tk3 .delate:hover a{color: #fff;}
+.smainbot_right .tk3 .delate a{color: #c9c9c9 ;font-size: 20px;display: inline-block;width: 26px;height: 26px;}

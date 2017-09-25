@@ -1,0 +1,40 @@
+/*李舒雨_公用样式*/
+*{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+img,input{border: none;}
+a{text-decoration: none;}
+body{font-family: arial,"MicroSoft YaHei";}
+i{font-style: normal;font-family: consolas;}
+.clearfix:after{content: '.';display: block;clear: both;visibility: hidden;height: 0;}
+.clearfix{*zoom: 1;}
+.hide{display: none;}
+.inner{width: 1201px;margin: 0 auto;}
+
+.header_nav{height: 110px;}
+.header_nav .header_logo{float: left;}
+.header_nav .navigation{float: right;padding-top: 35px;}
+.header_nav .navigation li {float: left;font-size: 18px;width: 125px;text-align: center;height: 20px;padding: 5px 0;border: 1px solid transparent;}
+.header_nav .navigation li a{color: #404040;height: 20px;line-height: 20px;}
+.header_nav .navigation ul .active{border: 1px solid #404040;}
+.header_nav .navigation li .sec_nav{display: none;}
+.header_nav .navigation li .sec_nav li{margin-top: 8px;border: 1px solid #404040;width: 123px;}
+.all_footer{height: 292px;background-color: #696969;}
+.all_footer_content{ height: 292px;background: url(../images/daosui.png) no-repeat -18px bottom;}
+.af_left{float: left;}
+.af_left_top{padding-top: 25px;width: 943px;}
+.af_left_top dl{float: left;width: 188px;}
+.af_left_top dt a{color: #fff;}
+.af_left_top dd a{color: #dedede;}
+.af_left_top dt{height: 40px;line-height: 40px;font-size: 16px;}
+.af_left_top dd{height: 30px;line-height: 30px;font-size: 16px;}
+.af_left_bot{width: 777px;height: 50px;border-top: 1px solid #b8b8b8;margin:28px 0 0 60px;}
+.af_left_bot p{height: 50px;line-height: 50px;font-size: 12px;color: #dedede;padding-left: 108px;}
+.af_right{width: 258px;float: left;}
+.af_right .af_tel{padding-left:108px ;height: 53px;width: 148px;background: #fff url(../images/24xiaoshi.png) no-repeat 50px -12px;margin-top: 32px;}
+.af_right .af_tel p{font-size: 12px;padding-top: 12px;width: 97px;text-align: center;color: #8b8b8b;}
+.af_right .af_tel p span{color: #cc7679;}
+.af_right .af_ercode{padding-top: 45px;}
+.af_right .af_ercode .af_ercode_con{float: left;width: 107px;margin-left: 15px;}
+.af_right .af_ercode .af_code_pic{width: 105px;height: 105px;border: 1px solid #adadad;}
+.af_right .af_ercode .af_code_pic img{width: 105px;height: 105px;}
+.af_right .af_ercode .af_ercode_con p{text-align: center;color: #cacaca;}

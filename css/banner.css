@@ -1,0 +1,22 @@
+.banner{height: 1000px; width: 100%;margin: auto;position: relative;top: -100px;left:0;z-index: -5;}
+.banner .tu{position: absolute;top: 0;left:0 ;height: 1020px;width: 100%;}
+.banner .wen{width: 200px;height: 500px;position: absolute;top: 200px;left: 470px;}
+.main{width: 1200px;height: 1175px;margin: auto;margin-top: 95px;position: relative;}
+.main .title{float: left;}
+.main .txt{position: absolute;top: 45px;left: 66px;color: #595959;}
+.main .txt h3{line-height: 50px;font-weight:normal;font-size: 23px;}
+.main .txt li{margin-bottom: 10px;}
+.main .txt a{color: #595959;}
+.main .txt .xian{background: url(../images/xian_03.jpg) no-repeat bottom center;}
+.main .txt .xian a{color:#b90a0a;}
+.main .t_news{float: left;padding-left: 48px;width: 500px;}
+.main .t_news h3{float: left;font-size: 22px;font-weight: normal;}
+.main .t_news p{float: left;font-size: 12px;padding-left: 5px;padding-top: 8px;background: url(../images/yun2.png) no-repeat left center;height: 35px;}
+.main .news{float: left;margin-left: 48px;width: 935px;}
+.main .news ul{padding-top: 75px;color: #929292;}
+.main .news li{padding-bottom: 48px;}
+.main .news li a{color:  #929292;}
+.main .news li:hover a{color: #c81623;}
+.main .news li span{float: right;font-size: 16px;}
+.butn{float: right;}
+.butn span{width: 20px;height: 20px;text-align: center;background: #cecece;display: block;float: left;margin-right: 10px;font-weight: bolder;}

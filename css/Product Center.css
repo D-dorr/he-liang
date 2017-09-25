@@ -1,0 +1,57 @@
+*{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+.all_header{height: 1011px;background: url(../images/probanner_01.jpg) no-repeat;}
+.all_header .header_nav .navigation li a{color: #fff;}
+.main .o_main{width:1198px;margin: 0 auto;margin-top:100px ;}
+.main .o_main .list{border: 1px solid #bebebe;border-top:2px solid #bebebe;border-bottom:2px solid #bebebe;width:117px;position: relative;float: left;}
+.main .o_main .list .pica{position: absolute;
+bottom: -18px;left: -39px;width: 95px;height: 70px;background: #FFFFFF;line-height: 105px;}
+.main .o_main .list .picb{position: absolute;top: -6px;right: -8px;width: 41px;height: 22px;line-height: 21px;background: #ffffff;}
+.main .o_main .list .picc{position: absolute;bottom: 47px;left: 40px;}
+.main .o_main .list ul li{color:#636363;line-height:44px ;font-size:22px;font-family:幼圆;text-align: center;padding-bottom:20px;position: relative;}
+.main .o_main .list ul li span{position: absolute;bottom:0;left: 0;}
+.main .o_main .list ul .ac{color: #b90a0a;}
+.main .o_main .list ul li .hide{display: none;}
+.main .o_main .list ul{margin: 35px 0 89px 0;}
+
+.main .o_main .pro{margin-left:161px ;}
+.main .o_main .pro .one{position: relative;margin-bottom:65px ;}
+.main .o_main .pro .one h3{line-height: 37px;color:#595959;font-size:32px ;font-family: 华文行楷;margin-bottom: 39px;}
+.main .o_main .pro .one .file1{position: absolute;top: 0;left: 126px;}
+.main .o_main .pro .one p{color:#929292 ;font-size:17px ;line-height: 31px;}
+.main .o_main .pro .two{position: relative;margin-bottom:65px ;}
+.main .o_main .pro .two h3{line-height: 37px;color:#595959;font-size:32px ;font-family: 华文行楷;margin-bottom: 39px;}
+.main .o_main .pro .two .file2{position: absolute;top: 9px;left: 46px;}
+.main .o_main .pro .two p{color:#929292 ;font-size:17px ;line-height: 31px;}
+
+.main .o_main .pro .three{position: relative;}
+.main .o_main .pro .three .tt{height: 600px;}
+.main .o_main .pro .three ul li{width:316px ;border: 1px solid #bababa;border-top: 13px solid #bababa;float: left;position: relative;}
+.main .o_main .pro .three ul li .mad{width:233px;border:1px solid #cacaca;text-align: center;font-family: 华文细黑;margin: 32px 29px 275px 42px;position: relative;}
+.main .o_main .pro .three ul li .mad h4{color:#aaaaaa ;line-height: 49px;width:105px ;text-align: center;font-size:28px;height:49px;position: absolute;top:-24px;left: 62px;background: #FFFFFF;}
+.main .o_main .pro .three ul li .mad p{color:#aaaaaa ;font-size:20px ;line-height: 84px;margin-top: 8px;}
+.main .o_main .pro .three ul li .mad .dian{width:116px;height:30;line-height: ;font-size: ;border: 1px solid #bfbfbf;margin-left:59px ;margin-bottom:29px ;}
+.main .o_main .pro .three ul li .mad .dian a{color: #c5c5c5;font-size:16px;line-height: 30px;text-decoration: none;}
+.main .o_main .pro .three ul li .pc{position: absolute;left: 21px;bottom: -65px;}
+.main .o_main .pro .three ul li .pc:hover{transform: scale(1.2) translateY(40px);transition-duration: 1s;}
+.main .o_main .pro .three ul .dd{margin: 0 40px;}
+.main .o_main .pro .three ol{position: absolute;bottom: 40px;right: 0;line-height: 15px;text-align: center;}
+.main .o_main .pro .three ol .qian{width:15px; height:15px;float:left;color:#c8c8c8 ;background: #5a5a5a;}
+.main .o_main .pro .three ol .hou{width:15px; height:15px;float:left;margin-left:1px;color:#c8c8c8 ;background: #7e7e7e;}
+
+.main .o_main .pro .hideen{display: none;}
+.main .o_main .pro .four{width: 1030px;height: 704px;border: 1px solid #c9c9c9;position: relative;}
+.main .o_main .pro .four .shan{width:20px;height:20px;border-radius:50% ;line-height:20px;text-align:center;border: 1px solid black;position: absolute;top:5px;right:5px;}
+.main .o_main .pro .four .hos{width:265px; height:455px;margin: 164px 0 0 104px;border:1px solid #c9c9c9;position: relative;}
+.main .o_main .pro .four .bop{width:77px;text-align:center;background: #FFFFFF;position: absolute;top: -58px;left: 20px;}
+.main .o_main .pro .four .bop h4{height: 100px;font-size: 38px;font-family: 华文宋体;color: #5a5a5a;writing-mode:lr-tb;}
+.main .o_main .pro .four .bop h6{width: 151px;font-size: 18px;font-family: 华文宋体;color: #5a5a5a;transform: rotate(90deg);height: 15px;}
+.main .o_main .pro .four .hos .text{width: 186px;margin-left: 56px;margin-top: 124px;line-height: 15px;}
+.main .o_main .pro .four .hos .text .zi{}
+.main .o_main .pro .four .hos p{font-size: 14px;color: #929292;width: 27px;float: right;display: block;}
+.main .o_main .pro .four .hos .pcc{position: absolute;bottom:22px ;left:18px ;}
+.main .o_main .pro .four .pho{position: absolute;bottom: 60px;right: 0;}
+
+.main .o_main .pro .b .pho{position: absolute;bottom: 60px;right: 80px;}
+
+.main .o_main .pro .c .pho{position: absolute;bottom: 60px;right: 80px;}

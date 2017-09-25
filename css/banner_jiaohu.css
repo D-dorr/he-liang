@@ -1,0 +1,45 @@
+.banner{height: 1000px; width: 100%;margin: auto;position: relative;top: -100px;left:0;z-index: -5;}
+.banner .tu{position: absolute;top: 0;left:0 ;height: 1020px;width: 100%;}
+.banner .wen{width: 200px;height: 500px;position: absolute;top: 200px;left: 470px;}
+.main{width: 1235px;height: 1280px;margin: auto;margin-top: 90px;position: relative;}
+.main .title{float: left;height: 1320px;}
+.main .txt{position: absolute;top: 45px;left: 66px;color: #595959;}
+.main .txt h3{line-height: 50px;font-weight:normal;font-size: 23px;}
+.main .txt li{margin-bottom: 10px;}
+.main .txt h3 a{color: #595959;}
+.main .txt .xian{background: url(../images/xian_03.jpg) no-repeat bottom center;}
+.main .txt .xian a{color:#b90a0a;}
+.main .t_news{float: left;padding-left: 48px;width: 912px;}
+.main .t_news h3{float: left;font-size: 22px;font-weight: normal;}
+.main .t_news p{float: left;font-size: 12px;padding-left: 5px;padding-top: 8px;background: url(../images/yun2.png) no-repeat left center;height: 35px;}
+.main .t_news span{width: 116px;height: 26px;display: block;border: 1px solid #a6a6a6;float: right;font-size: 14px;line-height: 26px;text-align: center;color: #a6a6a6;}
+.main .t_news span a{color: #a6a6a6;;}
+.show{padding-left: 48px;float: left;margin-top: 50px;width: 970px;height: 370px;}
+.show .show_company{width:298px;height: 368px;float: left;}
+.show .show_company p{font-size: 16px;color: #a6a6a6;line-height: 30px;margin-top: 22px;}
+.show .show_company span{width: 116px;height: 26px;display: block;border: 1px solid #a6a6a6;font-size: 14px;line-height: 26px;text-align: center;color: #a6a6a6;margin-top: 22px;}
+.show .zz{padding: 0 30px;}
+.gg{margin-top: 90px;}
+.show2{height: 240px;;width: 970px;position: relative;float: left;margin-bottom: 50px;margin-left: 40px;}
+.show_industry{width: 970px;}
+.show_industry .pic{float: left;}
+.show_industry .txt{width: 510px;height: 240px;position: absolute;left: 450px;top: 0;}
+.show_industry .txt h4{color: #595959;}
+.show_industry .txt p{color: #a6a6a6;line-height: 30px;font-size: 16px;}
+.show_industry .txt span{width: 116px;height: 26px;display: block;border: 1px solid #a6a6a6;font-size: 14px;line-height: 26px;text-align: center;color: #a6a6a6;margin-top: 70px;}
+.bot{width: 1235px;height: 1280px;margin: auto;margin-top: 170px;position: relative;}
+.bot .t_news{float: left;padding-left: 48px;width: 912px;}
+.bot .t_news h3{float: left;font-size: 22px;font-weight: normal;}
+.bot .t_news p{float: left;font-size: 12px;padding-left: 5px;padding-top: 8px;background: url(../images/yun2.png) no-repeat left center;height: 35px;}
+.bot .nan{width: 270px;height: 1280px;float: left;}
+.bot .show3{width: 300px;height: 700px;border: 1px solid #c9c9c9;border-top: 13px solid #c9c9c9;float: left;margin-top: 40px;}
+.bot .show3 img{text-align: center;margin-top: 60px;margin-left: 40px;}
+.bot .show3 h3{line-height: 50px;background: url(../images/diwen.png) no-repeat left center;font-size: 22px;font-weight: normal;color:#595959 ;margin-left: 40px;margin-top: 45px;}
+.bot .show3 p{line-height: 30px;color: #c9c9c9;font-size: 16px;margin-left: 40px;margin-top: 10px;width: 225px;}
+.bot .show3 span{width: 116px;height: 26px;display: block;border: 1px solid #a6a6a6;font-size: 14px;line-height: 26px;text-align: center;color: #a6a6a6;margin-top: 50px;margin:22px auto;}
+.bot .kk{margin: 40px 29px;}
+.bot .jieshao{width: 970px;height: 290px;border: 1px solid #a6a6a6;position: absolute;top: 820px;left: 270px;display: none;}
+.bot .jieshao h4{line-height: 60px;font-size: 18px;color: #afafaf;font-weight: normal;padding-left: 40px;margin-top: 30px;}
+.bot .jieshao p{line-height: 30px;color: #b8b8b8;padding-left: 40px;font-size: 16px;width: 888px;}
+.bot .jieshao span{width: 30px;height: 30px;background: url(../images/X_03.jpg) no-repeat center;float: right;padding: 15px 15px 0 0;}
+span:hover{background-color: red;color: #fff;}
